@@ -57,7 +57,7 @@ public  static Object[][] Getdata(String sheet) {
 		
 		Object[][] o= new Object[rowc+1][colc];
 		
-		for(int i=1;i<=rowc+1;i++)
+		for(int i=1;i<=rowc;i++)
 		{
 			for(int j=0;j<colc;j++)
 			{

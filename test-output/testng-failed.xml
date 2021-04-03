@@ -10,7 +10,9 @@
     <classes>
       <class name="com.qa.khan.testcases.KhanLoginPageTest">
         <methods>
-          <include name="login"/>
+          <include name="tear"/>
+          <include name="login" invocation-numbers="0"/>
+          <include name="setup"/>
         </methods>
       </class> <!-- com.qa.khan.testcases.KhanLoginPageTest -->
     </classes>
