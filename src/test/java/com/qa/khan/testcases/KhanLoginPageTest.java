@@ -28,6 +28,7 @@ public class KhanLoginPageTest extends KhanTestBaseExcel{
 	public void login(String un, String pas)
 	{
 		KhanLoginPage kl = new KhanLoginPage();
+		
 		kl.loginpage(un,pas);
 	}
 	@AfterMethod
